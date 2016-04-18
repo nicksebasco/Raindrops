@@ -240,10 +240,11 @@ h3{
   height:40px;
   line-height:40px;
   text-align:center;
-  background-color:black;
-  color: black;
+  color: #29293d;
+  background-color:#29293d;
   font-family: Lucida Grande
   display:inline;
+  border-radius:5px;
   /* Prevent user from highlighting */
   -webkit-user-select: none; /* Chrome/Safari */
   -moz-user-select: none; /* Firefox */
