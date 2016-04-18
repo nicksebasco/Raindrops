@@ -1,0 +1,56 @@
+<html>
+
+<head>
+  <title>animationPractice</title>
+  <!-- library/framework cdns -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+  <!-- project files -->
+  <link rel="stylesheet" href="rcInter.css">
+  <script src="rcInter.js"></script>
+
+</head>
+<body id = "body">
+  <div id = "main-container">
+    <div id = "title-container">Raindrops</div>
+    <div id = "game-container">
+      <img id = "clouds1" class = "cloud" src = "images/IamCloud.png"></img>
+      <img id = "clouds1b" class = "cloud" src = "images/IamCloud.png"></img>
+      <img id = "clouds2" class = "cloud" src = "images/IamCloud.png"></img>
+      <img id = "clouds2b" class = "cloud" src = "images/IamCloud.png"></img>
+      <img id = "clouds3" class = "cloud" src = "images/IamCloud.png"></img>
+
+      <div id = "pos" class = "pos">
+      </div>
+
+      <div id = "waterlevel"></div>
+      <div id = "floor">
+        <input id = "guess" type = "text" autocomplete = "off"></input>
+      </div>
+    </div>
+
+    <div id = "stats-container">
+      <div id = "stats-title">Stats</div>
+      <div id = "info1" class="infos" >
+        <div id = "levelCount">Level: </div>
+        <ul>
+          <li><div id = "Score-container">Score:</div><div id ="Score">0</div></li>
+          <li><div id = "waterHeight">Water Height: 0</div></li>
+
+          <li><span>Check Answer:</span> <span id = "peekCount">3</span></li>
+        </ul>
+        <div id = "peeks">
+          <div id = "answer-container"></div>
+        </div>
+        <div id = "multiplier">Multiplier:<span> 1</span> </div>
+      </div>
+        <button type ="btn" class = "btn-primary" id = "playAgain">Play Again</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
