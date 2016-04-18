@@ -5,7 +5,7 @@ Project Goals (To-Do's):
 
 1.  Incorporate non trivial mental calculations such as basic derivatives, integration, 2x2 systems of equations, .. etc.
 2.  Generate multiple raindrops at at time.
-3.  Clean up css with less.  I briefly cleaned up the js code; however, this was literally one of my first projects I created when learning js/html/css, so the code could definitely use more abstraction, better commenting, etc.
+3.  Clean up css with less.  I briefly cleaned up the js code; however, this was literally one of the first projects I created when learning js/html/css, so the code could definitely use more abstraction, better commenting, etc.
 4.  Create levels corresponding to difficulty and calculation type.
 5.  Make levels get progressively harder.
 
