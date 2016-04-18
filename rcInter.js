@@ -234,7 +234,7 @@ document.addEventListener('DOMContentLoaded', function() {
           self.peekCount -= 1;
           document.getElementById("peekCount").innerHTML = self.peekCount;
           setTimeout(function(){
-            answerContainer.style.backgroundColor = "black";
+            answerContainer.style.backgroundColor = "#29293d";
           },1000)
         }
       }
