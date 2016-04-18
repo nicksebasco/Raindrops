@@ -7,6 +7,6 @@ Project Goals (To-Do's):
 2. Generate multiple raindrops at at time.
 3.  Clean up css with less.  I briefly cleaned up the js code; however, this was literally one of my first projects I created when learning js/html/css, so the code could definitely use more abstraction, better commenting, etc.
 4.  Create levels corresponding to difficulty and calculation type.
-⋅⋅⋅ Make levels get progressively harder
+⋅⋅1.Make levels get progressively harder
 
 
